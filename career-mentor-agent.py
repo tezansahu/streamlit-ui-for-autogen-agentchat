@@ -199,9 +199,8 @@ def initialize_agent(gh_pat: str, model: str):
 if not (gh_pat and model):
     st.warning("Please enter your GitHub PAT and select a model to continue.")
 else:
-    if "agent" not in st.session_state:
-        # Initialize the agent with the provided GitHub PAT and model
-        st.session_state["agent"] = initialize_agent(gh_pat, model)
+    # Initialize the agent with the provided GitHub PAT and model
+    st.session_state["agent"] = initialize_agent(gh_pat, model)
 
     # Display chat history messages
     for message in st.session_state["messages"]:
