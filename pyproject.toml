@@ -1,7 +1,7 @@
 [project]
-name = "streamlit-ui-for-autogen-0-4"
+name = "streamlit-ui-for-autogen-agentchat"
 version = "0.1.0"
-description = "Add your description here"
+description = "Streamlit UI for Agents Built using AutoGen AgentChat (v0.4+)"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

@@ -16,7 +16,7 @@ from typing import AsyncGenerator, Sequence
 
 # Create the Streamlit Interface
 
-st.header("Autogen 0.4 Agent with Streamlit UI")
+st.header("Autogen AgentChat Agent with Streamlit UI")
 
 
 ######################################################################################
