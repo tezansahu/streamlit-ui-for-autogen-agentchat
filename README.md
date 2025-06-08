@@ -1,6 +1,11 @@
 # Streamlit UI for Agents Built using AutoGen AgntChat (v0.4+)
 
-This project demonstrates how to create a modern web interface for AutoGen 0.4 agents using Streamlit. Unlike most tutorials that focus on AutoGen 0.2, this implementation specifically targets version 0.4 and showcases real-time agent interactions with streaming responses.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![AutoGen Version](https://img.shields.io/badge/AutoGen-0.4+-green.svg)](https://microsoft.github.io/autogen/stable/index.html)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io/gallery)
+
+This project demonstrates how to create a modern web interface for AutoGen AgentChat agents using Streamlit. Unlike most tutorials that focus on AutoGen 0.2, this implementation specifically targets version 0.4 and above (this one uses v0.6) and showcases agent interactions with responses in the Streamlit UI.
 
 ## Project Setup
 
@@ -98,4 +103,4 @@ streamlit run career-mentor-agent.py
 
 ## Conclusion
 
-This implementation showcases a modern approach to building AI agent interfaces using Streamlit and AutoGen 0.4. The architecture supports real-time interactions, tool integration, and extensibility for additional features. The modular design allows for easy modifications and enhancements to suit specific use cases.
+This implementation showcases a modern approach to building AI agent interfaces using Streamlit and AutoGen AgentChat. The architecture supports real-time interactions, tool integration, and extensibility for additional features. The modular design allows for easy modifications and enhancements to suit specific use cases.
