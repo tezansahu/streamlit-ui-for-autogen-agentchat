@@ -1,4 +1,4 @@
-# Streamlit UI for AutoGen 0.4 Agents
+# Streamlit UI for Agents Built using AutoGen AgntChat (v0.4+)
 
 This project demonstrates how to create a modern web interface for AutoGen 0.4 agents using Streamlit. Unlike most tutorials that focus on AutoGen 0.2, this implementation specifically targets version 0.4 and showcases real-time agent interactions with streaming responses.
 
